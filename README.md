@@ -57,7 +57,7 @@ Backend-сервис на Django для приёма и обработки webho
 - Применение миграций:
 
     ```bash
-    docker-compose exec web python manage.py migrate
+    docker-compose exec django python manage.py migrate
     ```
 ---
 
